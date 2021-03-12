@@ -1,0 +1,28 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "script"
+  },
+  "extends": ["airbnb",  "prettier"],
+  "plugins": ["prettier"],
+  "globals": {},
+  "rules": {
+    "linebreak-style": "off",
+    "quotes": "error",
+    "no-console": "off",
+    "max-len": "off",
+    "no-unused-expressions": "off",
+    "no-unused-vars": "warn",
+    "no-param-reassign": "off",
+    "class-methods-use-this": "off",
+    "consistent-return": "off",
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "no-bitwise": ["error", { "allow": ["^"] }],
+    "prettier/prettier": "error",
+    "react/state-in-constructor": "off",
+    "react/static-property-placement": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-curly-newline": "off"
+  }
+}
